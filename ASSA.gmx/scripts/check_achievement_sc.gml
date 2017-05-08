@@ -1,4 +1,4 @@
-if(global.click_number > 99)
+if(global.achieve_click_1=true)
 {
         with (no_achievement00_ob)
         {
@@ -12,7 +12,7 @@ instance_create(320, 192, no_achievement00_ob);
 }
 // 첫번쨰 업적 확인
 
-if(global.upgrade_level > 0)
+if(global.achieve_upgrade_1=true)
 {
         with (no_achievement01_ob)
         {
