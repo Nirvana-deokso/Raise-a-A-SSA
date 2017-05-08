@@ -57,6 +57,8 @@
     <instance objName="go_achievement_ob" x="576" y="192" name="inst_ABE7A937" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="go_map_ob" x="576" y="352" name="inst_B13D3136" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="go_menu_ob" x="576" y="512" name="inst_83BD9143" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="up_inssapower00_ob" x="96" y="832" name="inst_DBBA3A6F" locked="0" code="" scaleX="0.833333313465118" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
+    <instance objName="up_inssapower00_ob" x="448" y="832" name="inst_675B855F" locked="0" code="" scaleX="0.833333313465118" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="inssa_level_ti" x="9" y="31" w="128" h="160" xo="0" yo="0" id="10000015" name="inst_BF3F4876" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

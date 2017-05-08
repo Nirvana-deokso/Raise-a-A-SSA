@@ -27,6 +27,10 @@
             <kind>1</kind>
             <string>global.inssa_power = global.inssa_power + 2;
 global.click_number = global.click_number + 1;
+if(global.click_number &gt; 99)
+{
+global.achievement_click_1 = 1;
+}
 </string>
           </argument>
         </arguments>
