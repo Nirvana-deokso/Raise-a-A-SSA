@@ -53,8 +53,8 @@
   <instances>
     <instance objName="go_house_ob" x="576" y="32" name="inst_F92E61B5" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="check_achievement_ob" x="0" y="0" name="inst_A9CD9FC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="no_achievement_ob" x="320" y="192" name="inst_046A1025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="no_achievement_ob" x="384" y="320" name="inst_61895ACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="no_achievement00_ob" x="320" y="192" name="inst_046A1025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="no_achievement01_ob" x="384" y="320" name="inst_8410B3B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="achievement_click00_ti" x="0" y="160" w="352" h="160" xo="0" yo="0" id="10000023" name="inst_9AE10885" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -6,15 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="go sprites">
+      <sprite>sprites\go_shop_sp</sprite>
+      <sprite>sprites\go_house_sp</sprite>
+      <sprite>sprites\go_achievement_sp</sprite>
+      <sprite>sprites\go_map_sp</sprite>
+      <sprite>sprites\go_menu_sp</sprite>
+    </sprites>
     <sprite>sprites\start_sp</sprite>
     <sprite>sprites\up_inssapower00_sp</sprite>
     <sprite>sprites\up_inssapower01_sp</sprite>
     <sprite>sprites\upgrade_up_inssapower_sp</sprite>
-    <sprite>sprites\go_shop_sp</sprite>
-    <sprite>sprites\go_house_sp</sprite>
     <sprite>sprites\buy_inssalevel_sp</sprite>
-    <sprite>sprites\go_achievement_sp</sprite>
-    <sprite>sprites\go_map_sp</sprite>
     <sprite>sprites\ok_achievement_sp</sprite>
     <sprite>sprites\no_achievement_sp</sprite>
     <sprite>sprites\save_sp</sprite>
@@ -33,6 +36,7 @@
     <background>background\shop_ba</background>
     <background>background\achievement_ba</background>
     <background>background\map_ba</background>
+    <background>background\menu_ba</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -62,16 +66,21 @@
       <object>objects\go_achievement_ob</object>
       <object>objects\go_shop_ob</object>
       <object>objects\go_map_ob</object>
+      <object>objects\go_menu_ob</object>
     </objects>
     <objects name="up inssapower objects">
       <object>objects\up_inssapower00_ob</object>
       <object>objects\up_inssapower01_ob</object>
     </objects>
+    <objects name="achievement objects">
+      <object>objects\no_achievement00_ob</object>
+      <object>objects\ok_achievement00_ob</object>
+      <object>objects\no_achievement01_ob</object>
+      <object>objects\ok_achievement01_ob</object>
+    </objects>
     <object>objects\start_ob</object>
     <object>objects\upgrade_up_inssapower_ob</object>
     <object>objects\buy_inssalevel_ob</object>
-    <object>objects\ok_achievement_ob</object>
-    <object>objects\no_achievement_ob</object>
     <object>objects\save_ob</object>
     <object>objects\load_ob</object>
   </objects>
@@ -81,6 +90,7 @@
     <room>rooms\shop</room>
     <room>rooms\achievement</room>
     <room>rooms\map</room>
+    <room>rooms\menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
