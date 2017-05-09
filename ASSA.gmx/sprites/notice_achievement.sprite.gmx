@@ -7,19 +7,19 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>183</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>183</bbox_bottom>
+  <bbox_left>12</bbox_left>
+  <bbox_right>239</bbox_right>
+  <bbox_top>36</bbox_top>
+  <bbox_bottom>61</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>184</width>
-  <height>184</height>
+  <width>250</width>
+  <height>96</height>
   <frames>
-    <frame index="0">images\up_inssapower00_sp_0.png</frame>
+    <frame index="0">images\notice_achievement_0.png</frame>
   </frames>
 </sprite>
