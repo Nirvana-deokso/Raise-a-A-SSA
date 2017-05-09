@@ -22,7 +22,6 @@
     <sprite>sprites\no_achievement_sp</sprite>
     <sprite>sprites\save_sp</sprite>
     <sprite>sprites\load_sp</sprite>
-    <sprite>sprites\notice_achievement</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -51,8 +50,6 @@
     <script>scripts\save_sc.gml</script>
     <script>scripts\savestart_sc.gml</script>
     <script>scripts\load_sc.gml</script>
-    <script>scripts\notice_achievement_start_sc.gml</script>
-    <script>scripts\notice_achievement_stop_sc.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\basic_font</font>
@@ -63,7 +60,6 @@
       <object>objects\draw_inssa_ob</object>
       <object>objects\check_upgrade_ob</object>
       <object>objects\check_achievement_ob</object>
-      <object>objects\notice_achievement_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -87,7 +83,6 @@
     <object>objects\buy_inssalevel_ob</object>
     <object>objects\save_ob</object>
     <object>objects\load_ob</object>
-    <object>objects\notice_real_achievement_ob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title</room>
