@@ -51,8 +51,10 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="start_ob" x="160" y="416" name="inst_EE85D260" locked="0" code="" scaleX="1.625" scaleY="1.625" colour="4294967295" rotation="0"/>
     <instance objName="set_inssa_ob" x="0" y="0" name="inst_2F7D0EC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="start_ob" x="32" y="0" name="inst_FA14DC96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blink_start_ob" x="64" y="0" name="inst_C43E199E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Layer_8_ob" x="0" y="0" name="inst_11A937C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

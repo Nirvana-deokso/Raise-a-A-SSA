@@ -1,4 +1,4 @@
-if(global.achievement_click_1 = 1)
+if(global.achievement_click_1 == 1)
 {
     if(object_exists(no_achievement00_ob))
     {
@@ -11,7 +11,7 @@ if(global.achievement_click_1 = 1)
 }
 // 첫번쨰 업적 확인 (클릭수 100번) 
 
-if(global.achievement_upgrade_1 = 1)
+if(global.achievement_upgrade_1 == 1)
 {
     if(object_exists(no_achievement01_ob))
     {

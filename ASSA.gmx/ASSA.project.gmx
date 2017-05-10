@@ -17,6 +17,17 @@
       <sprite>sprites\go_map_sp</sprite>
       <sprite>sprites\go_menu_sp</sprite>
     </sprites>
+    <sprites name="title_animation">
+      <sprite>sprites\Layer_0</sprite>
+      <sprite>sprites\Layer_1</sprite>
+      <sprite>sprites\Layer_2</sprite>
+      <sprite>sprites\Layer_3</sprite>
+      <sprite>sprites\Layer_4</sprite>
+      <sprite>sprites\Layer_5</sprite>
+      <sprite>sprites\Layer_6</sprite>
+      <sprite>sprites\Layer_7</sprite>
+      <sprite>sprites\Layer_8</sprite>
+    </sprites>
     <sprite>sprites\start_sp</sprite>
     <sprite>sprites\up_inssapower00_sp</sprite>
     <sprite>sprites\up_inssapower01_sp</sprite>
@@ -38,6 +49,7 @@
       <background>background\achievement_click00_ti</background>
       <background>background\achievement_level00_ti</background>
     </backgrounds>
+    <background>background\title_animation_ba</background>
     <background>background\title_ba</background>
     <background>background\house_ba</background>
     <background>background\shop_ba</background>
@@ -47,9 +59,14 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <scripts name="draw scripts">
+      <script>scripts\draw_inssalevel_sc.gml</script>
+      <script>scripts\draw_innsapower_sc.gml</script>
+      <script>scripts\draw_house_button_sc.gml</script>
+      <script>scripts\draw_shop_upgrade_sc.gml</script>
+      <script>scripts\draw_shop_level_sc.gml</script>
+    </scripts>
     <script>scripts\set_inssa_sc.gml</script>
-    <script>scripts\draw_innsapower_sc.gml</script>
-    <script>scripts\draw_inssalevel_sc.gml</script>
     <script>scripts\buy_inssalevel_sc.gml</script>
     <script>scripts\upgrade_up_inssapower_sc.gml</script>
     <script>scripts\check_upgrade_sc.gml</script>
@@ -59,10 +76,10 @@
     <script>scripts\load_sc.gml</script>
     <script>scripts\notice_achievement_start_sc.gml</script>
     <script>scripts\notice_achievement_stop_sc.gml</script>
+    <script>scripts\check_click_sc.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\basic_font</font>
-    <font>fonts\korfont_ft</font>
   </fonts>
   <objects name="objects">
     <objects name="No-Sprite Objects">
@@ -71,7 +88,13 @@
       <object>objects\check_upgrade_ob</object>
       <object>objects\check_achievement_ob</object>
       <object>objects\notice_achievement_ob</object>
-      <object>objects\draw_house_text_ob</object>
+      <object>objects\draw_house_button_ob</object>
+      <object>objects\draw_shop_level_ob</object>
+      <object>objects\draw_shop_upgrade_ob</object>
+      <object>objects\start_ob</object>
+      <object>objects\check_click_ob</object>
+      <object>objects\animation_skip_ob</object>
+      <object>objects\Blink_start_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -92,7 +115,16 @@
       <object>objects\no_achievement01_ob</object>
       <object>objects\ok_achievement01_ob</object>
     </objects>
-    <object>objects\start_ob</object>
+    <objects name="title_animation">
+      <object>objects\Layer_1_ob</object>
+      <object>objects\Layer_2_ob</object>
+      <object>objects\Layer_3_ob</object>
+      <object>objects\Layer_4_ob</object>
+      <object>objects\Layer_5_ob</object>
+      <object>objects\Layer_6_ob</object>
+      <object>objects\Layer_7_ob</object>
+      <object>objects\Layer_8_ob</object>
+    </objects>
     <object>objects\upgrade_up_inssapower_ob</object>
     <object>objects\buy_inssalevel_ob</object>
     <object>objects\save_ob</object>
@@ -100,6 +132,7 @@
     <object>objects\notice_real_achievement_ob</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\title_animation</room>
     <room>rooms\title</room>
     <room>rooms\house</room>
     <room>rooms\shop</room>

@@ -58,67 +58,13 @@
     <instance objName="go_map_ob" x="576" y="352" name="inst_B13D3136" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="go_menu_ob" x="576" y="512" name="inst_83BD9143" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="notice_achievement_ob" x="64" y="0" name="inst_EEE517D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="draw_house_text_ob" x="96" y="0" name="inst_7B74FBF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="draw_house_button_ob" x="96" y="0" name="inst_7B74FBF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="up_inssapower00_ob" x="96" y="832" name="inst_08776EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="up_inssapower00_ob" x="448" y="832" name="inst_C7C90AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="inssa_level_ti" x="9" y="31" w="128" h="160" xo="0" yo="0" id="10000015" name="inst_BF3F4876" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="inssa_power_ti" x="-7" y="-22" w="160" h="160" xo="0" yo="0" id="10000016" name="inst_2DEA9A33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="832" w="30" h="30" xo="30" yo="60" id="10000063" name="inst_9109E8A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="832" w="30" h="30" xo="30" yo="60" id="10000085" name="inst_1C79FDE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="832" w="30" h="30" xo="30" yo="60" id="10000086" name="inst_93E25894" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="832" w="30" h="30" xo="30" yo="60" id="10000087" name="inst_A0D161D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="864" w="30" h="30" xo="30" yo="60" id="10000088" name="inst_EF38B9F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="896" w="30" h="30" xo="30" yo="60" id="10000089" name="inst_C5306E3D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="928" w="30" h="30" xo="30" yo="60" id="10000090" name="inst_6E297DDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="960" w="30" h="30" xo="30" yo="60" id="10000091" name="inst_DF4E721E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="224" y="992" w="30" h="30" xo="30" yo="60" id="10000092" name="inst_9279C09B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="992" w="30" h="30" xo="30" yo="60" id="10000093" name="inst_CD462970" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="992" w="30" h="30" xo="30" yo="60" id="10000094" name="inst_A106B6C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="992" w="30" h="30" xo="30" yo="60" id="10000095" name="inst_B73B79B6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="960" w="30" h="30" xo="30" yo="60" id="10000096" name="inst_09A09268" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="928" w="30" h="30" xo="30" yo="60" id="10000097" name="inst_49E3E8DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="896" w="30" h="30" xo="30" yo="60" id="10000098" name="inst_D3AC898E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="96" y="864" w="30" h="30" xo="30" yo="60" id="10000100" name="inst_0B01326D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="96" y="896" w="30" h="30" xo="30" yo="60" id="10000101" name="inst_8EA58EE6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="96" y="928" w="30" h="30" xo="30" yo="60" id="10000102" name="inst_B4FB8EC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="96" y="960" w="30" h="30" xo="30" yo="60" id="10000103" name="inst_E7303AED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="864" w="30" h="30" xo="30" yo="60" id="10000109" name="inst_1C0F9456" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="896" w="30" h="30" xo="30" yo="60" id="10000110" name="inst_684B6A9F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="928" w="30" h="30" xo="30" yo="60" id="10000111" name="inst_7483C8D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="960" w="30" h="30" xo="30" yo="60" id="10000112" name="inst_E0892ECA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="992" w="30" h="30" xo="30" yo="60" id="10000113" name="inst_12F44C17" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="992" w="30" h="30" xo="30" yo="60" id="10000114" name="inst_55478F06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="992" w="30" h="30" xo="30" yo="60" id="10000115" name="inst_3FAFC2E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="992" w="30" h="30" xo="30" yo="60" id="10000116" name="inst_47752FD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="960" w="30" h="30" xo="30" yo="60" id="10000117" name="inst_11CDCDF8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="928" w="30" h="30" xo="30" yo="60" id="10000118" name="inst_5FDEACAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="896" w="30" h="30" xo="30" yo="60" id="10000119" name="inst_C558A5DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="864" w="30" h="30" xo="30" yo="60" id="10000120" name="inst_1ADD7966" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="576" y="832" w="30" h="30" xo="30" yo="60" id="10000121" name="inst_C6D9FB92" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="832" w="30" h="30" xo="30" yo="60" id="10000122" name="inst_E12FB052" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="832" w="30" h="30" xo="30" yo="60" id="10000123" name="inst_1AC69378" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="480" y="832" w="30" h="30" xo="30" yo="60" id="10000124" name="inst_CC4E8305" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="448" y="864" w="30" h="30" xo="30" yo="60" id="10000125" name="inst_2A9DCF5B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="448" y="896" w="30" h="30" xo="30" yo="60" id="10000126" name="inst_767ACF51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="448" y="928" w="30" h="30" xo="30" yo="60" id="10000127" name="inst_E524D4D0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="448" y="960" w="30" h="30" xo="30" yo="60" id="10000128" name="inst_0E3501CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="128" y="864" w="30" h="30" xo="30" yo="60" id="10000129" name="inst_A0B547E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="864" w="30" h="30" xo="30" yo="60" id="10000130" name="inst_0FEC8178" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="864" w="30" h="30" xo="30" yo="60" id="10000131" name="inst_40C321B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="896" w="30" h="30" xo="30" yo="60" id="10000132" name="inst_19F01A0C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="960" w="30" h="30" xo="30" yo="60" id="10000135" name="inst_E49079B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="896" w="30" h="30" xo="30" yo="60" id="10000137" name="inst_FA042FCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="160" y="928" w="30" h="30" xo="30" yo="60" id="10000138" name="inst_E12FAF2A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="928" w="30" h="30" xo="30" yo="60" id="10000139" name="inst_276A1970" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="192" y="960" w="30" h="30" xo="30" yo="60" id="10000140" name="inst_A4AD0EA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="864" w="30" h="30" xo="30" yo="60" id="10000141" name="inst_33EF7528" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="864" w="30" h="30" xo="30" yo="60" id="10000142" name="inst_E8997321" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="896" w="30" h="30" xo="30" yo="60" id="10000143" name="inst_EF8D024B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="928" w="30" h="30" xo="30" yo="60" id="10000144" name="inst_0D83955F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="544" y="960" w="30" h="30" xo="30" yo="60" id="10000145" name="inst_757684CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="960" w="30" h="30" xo="30" yo="60" id="10000146" name="inst_B75D0D9B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="928" w="30" h="30" xo="30" yo="60" id="10000147" name="inst_272C1A4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="512" y="896" w="30" h="30" xo="30" yo="60" id="10000148" name="inst_F15D723B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
