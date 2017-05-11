@@ -40,6 +40,7 @@
     <sprite>sprites\save_sp</sprite>
     <sprite>sprites\load_sp</sprite>
     <sprite>sprites\notice_achievement</sprite>
+    <sprite>sprites\achievement_bar_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -95,6 +96,7 @@
       <object>objects\check_click_ob</object>
       <object>objects\animation_skip_ob</object>
       <object>objects\Blink_start_ob</object>
+      <object>objects\exit_mobile_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -130,6 +132,7 @@
     <object>objects\save_ob</object>
     <object>objects\load_ob</object>
     <object>objects\notice_real_achievement_ob</object>
+    <object>objects\achievement_bar_ob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_animation</room>

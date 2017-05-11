@@ -4,3 +4,6 @@ upgrade_level = global.upgrade_level;
 click_number = global.click_number;
 click_achievement_1 = global.achievement_click_1;
 upgrade_achievement_1 = global.achievement_upgrade_1;
+notice_achievement_click_1 = global.notice_achievement_click_1;
+notice_achievement_upgrade_1 = global.notice_achievement_upgrade_1;
+achievement_bar = global.achievement_bar;
