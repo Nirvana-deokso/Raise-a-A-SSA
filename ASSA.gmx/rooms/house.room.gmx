@@ -63,10 +63,7 @@
     <instance objName="up_inssapower00_ob" x="448" y="832" name="inst_C7C90AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="exit_mobile_ob" x="128" y="0" name="inst_04D1B921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles>
-    <tile bgName="inssa_level_ti" x="9" y="31" w="128" h="160" xo="0" yo="0" id="10000015" name="inst_BF3F4876" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="inssa_power_ti" x="-7" y="-22" w="160" h="160" xo="0" yo="0" id="10000016" name="inst_2DEA9A33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-  </tiles>
+  <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

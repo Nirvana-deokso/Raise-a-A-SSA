@@ -78,6 +78,7 @@
     <script>scripts\notice_achievement_start_sc.gml</script>
     <script>scripts\notice_achievement_stop_sc.gml</script>
     <script>scripts\check_click_sc.gml</script>
+    <script>scripts\load_achievement_sc.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\basic_font</font>
@@ -97,6 +98,7 @@
       <object>objects\animation_skip_ob</object>
       <object>objects\Blink_start_ob</object>
       <object>objects\exit_mobile_ob</object>
+      <object>objects\load_achievement_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
