@@ -9,7 +9,7 @@ if (global.inssa_power > 499)
 }
 //안싸레벨 0에서 1로
  
-if(global.inssa_level == 1)
+else if(global.inssa_level == 1)
 {
 if (global.inssa_power > 1999)
 {
@@ -20,7 +20,7 @@ if (global.inssa_power > 1999)
 }
 //인싸레벨 1에서 2로 
 
-if(global.inssa_level == 2)
+else if(global.inssa_level == 2)
 {
 if (global.inssa_power > 4999)
 {

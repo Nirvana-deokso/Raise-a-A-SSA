@@ -36,10 +36,6 @@
   }
  }
 }
-if(global.click_number &gt; 99)
-{
-global.achievement_click_1 = 1;
-}
 </string>
           </argument>
         </arguments>

@@ -99,6 +99,7 @@
       <object>objects\Blink_start_ob</object>
       <object>objects\exit_mobile_ob</object>
       <object>objects\load_achievement_ob</object>
+      <object>objects\change_achievement_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>

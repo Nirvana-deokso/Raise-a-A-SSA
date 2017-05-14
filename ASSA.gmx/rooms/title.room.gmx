@@ -54,8 +54,6 @@
     <instance objName="set_inssa_ob" x="0" y="0" name="inst_2F7D0EC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="start_ob" x="32" y="0" name="inst_FA14DC96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blink_start_ob" x="64" y="0" name="inst_C43E199E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Layer_8_ob" x="0" y="0" name="inst_11A937C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="load_achievement_ob" x="96" y="0" name="inst_4F1A07AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
