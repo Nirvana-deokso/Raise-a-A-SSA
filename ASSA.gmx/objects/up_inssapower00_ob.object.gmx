@@ -31,6 +31,7 @@
  {
   if position_meeting(device_mouse_x(i), device_mouse_y(i), self)
   {
+   audio_play_sound(click_snd,1,0);//사운드이펙트
    global.inssa_power = global.inssa_power + 1;
    global.click_number = global.click_number + 1;
   }

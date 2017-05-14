@@ -56,13 +56,14 @@
     <instance objName="check_upgrade_ob" x="32" y="0" name="inst_3DBE12ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="go_achievement_ob" x="576" y="192" name="inst_ABE7A937" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="go_map_ob" x="576" y="352" name="inst_B13D3136" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="go_menu_ob" x="576" y="512" name="inst_83BD9143" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="go_menu_ob" x="576" y="512" name="inst_83BD9143" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
     <instance objName="notice_achievement_ob" x="64" y="0" name="inst_EEE517D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_house_button_ob" x="96" y="0" name="inst_7B74FBF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="up_inssapower00_ob" x="96" y="832" name="inst_08776EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="up_inssapower00_ob" x="448" y="832" name="inst_C7C90AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="exit_mobile_ob" x="128" y="0" name="inst_04D1B921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="check_click_ob" x="160" y="0" name="inst_CC549D36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="play_music_ob" x="192" y="0" name="inst_E4F042FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

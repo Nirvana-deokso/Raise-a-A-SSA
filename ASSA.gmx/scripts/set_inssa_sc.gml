@@ -8,3 +8,4 @@ global.achievement_click_1 = 0;
 global.achievement_upgrade_1 = 0;
 global.notice_achievement_click_1 = 0;
 global.notice_achievement_upgrade_1 = 0;
+global.currentMusic = 0;

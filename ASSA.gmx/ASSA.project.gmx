@@ -7,7 +7,14 @@
   <sounds name="sound">
     <sounds name="sfx">
       <sound>sound\LevelUp_snd</sound>
+      <sound>sound\click_snd</sound>
     </sounds>
+    <sound>sound\bgm_title_snd</sound>
+    <sound>sound\bgm_house_snd</sound>
+    <sound>sound\bgm_shop_snd</sound>
+    <sound>sound\bgm_achievement_snd</sound>
+    <sound>sound\bgm_map_snd</sound>
+    <sound>sound\bgm_menu_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="go sprites">
@@ -41,6 +48,7 @@
     <sprite>sprites\load_sp</sprite>
     <sprite>sprites\notice_achievement</sprite>
     <sprite>sprites\achievement_bar_sp</sprite>
+    <sprite>sprites\music_unvisible_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -79,6 +87,7 @@
     <script>scripts\notice_achievement_stop_sc.gml</script>
     <script>scripts\check_click_sc.gml</script>
     <script>scripts\load_achievement_sc.gml</script>
+    <script>scripts\paly_music_sc.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\basic_font</font>
@@ -100,6 +109,7 @@
       <object>objects\exit_mobile_ob</object>
       <object>objects\load_achievement_ob</object>
       <object>objects\change_achievement_ob</object>
+      <object>objects\play_music_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>

@@ -56,6 +56,7 @@
     <instance objName="load_ob" x="288" y="160" name="inst_9B95EA4C" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="check_click_ob" x="0" y="0" name="inst_09FA7F46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="notice_achievement_ob" x="32" y="0" name="inst_48011B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="play_music_ob" x="64" y="0" name="inst_CC72B312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
