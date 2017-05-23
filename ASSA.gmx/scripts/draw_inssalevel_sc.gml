@@ -1,6 +1,4 @@
+draw_sprite(level_sp, 0, 10, 10);
 draw_set_font(basic_font);
-draw_set_colour(c_white);//글을 흰색으로 
-draw_text_transformed(167, 77, global.inssa_level, 1, 1, 0);
-draw_text(5, 77, "인싸레벨");
-draw_set_colour(c_black);//다시 폰트 색을 검정색으로 
-
+draw_set_colour(c_black);//글을 흰색으로 
+draw_text_transformed(30, 23, global.inssa_level, 1, 1, 0);

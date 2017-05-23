@@ -58,8 +58,8 @@
     <instance objName="notice_achievement_ob" x="32" y="0" name="inst_F20E9335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_shop_upgrade_ob" x="64" y="0" name="inst_1202E8F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_shop_level_ob" x="96" y="0" name="inst_C7C3554F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="check_achievement_ob" x="128" y="0" name="inst_A4C7B93D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="play_music_ob" x="160" y="0" name="inst_13F93D85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="draw_money_ob" x="128" y="0" name="inst_DF46E210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

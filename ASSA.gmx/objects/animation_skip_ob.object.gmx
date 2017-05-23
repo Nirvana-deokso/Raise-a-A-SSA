@@ -34,7 +34,7 @@ room_goto(title);
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="53">
+    <event eventtype="6" enumb="56">
       <action>
         <libid>1</libid>
         <id>224</id>

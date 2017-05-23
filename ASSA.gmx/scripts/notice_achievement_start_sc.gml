@@ -2,7 +2,7 @@ if(global.achievement_click_1 == 1)
 {
     if(global.notice_achievement_click_1 == 0)
     {
-    instance_create(32, 120, notice_real_achievement_ob);
+    instance_create(32, 100, notice_real_achievement_ob);
     global.notice_achievement_click_1 = 1;
     }
 }
@@ -12,7 +12,7 @@ if(global.upgrade_level == 1)
 {
     if(global.notice_achievement_upgrade_1 == 0)
     {
-    instance_create(32, 120, notice_real_achievement_ob);
+    instance_create(32, 100, notice_real_achievement_ob);
     global.notice_achievement_upgrade_1 = 1;
     }
 }

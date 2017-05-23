@@ -52,11 +52,9 @@
   </views>
   <instances>
     <instance objName="draw_inssa_ob" x="0" y="0" name="inst_84AED42B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="go_shop_ob" x="576" y="32" name="inst_1E71DBD9" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="go_shop_ob" x="288" y="512" name="inst_1E71DBD9" locked="0" code="" scaleX="0.666666686534882" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
     <instance objName="check_upgrade_ob" x="32" y="0" name="inst_3DBE12ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="go_achievement_ob" x="576" y="192" name="inst_ABE7A937" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="go_map_ob" x="576" y="352" name="inst_B13D3136" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="go_menu_ob" x="576" y="512" name="inst_83BD9143" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
+    <instance objName="go_menu_ob" x="576" y="32" name="inst_83BD9143" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
     <instance objName="notice_achievement_ob" x="64" y="0" name="inst_EEE517D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_house_button_ob" x="96" y="0" name="inst_7B74FBF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="up_inssapower00_ob" x="96" y="832" name="inst_08776EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -64,6 +62,10 @@
     <instance objName="exit_mobile_ob" x="128" y="0" name="inst_04D1B921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="check_click_ob" x="160" y="0" name="inst_CC549D36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="play_music_ob" x="192" y="0" name="inst_E4F042FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="draw_house_ob" x="224" y="0" name="inst_5040C1A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="draw_money_ob" x="256" y="0" name="inst_F492B36B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="go_map_ob" x="32" y="416" name="inst_200BF764" locked="0" code="" scaleX="0.833333313465118" scaleY="1.33333337306976" colour="4294967295" rotation="0"/>
+    <instance objName="fever_bar_ob" x="288" y="0" name="inst_20B376A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -23,6 +23,7 @@
       <sprite>sprites\go_achievement_sp</sprite>
       <sprite>sprites\go_map_sp</sprite>
       <sprite>sprites\go_menu_sp</sprite>
+      <sprite>sprites\go_work_sp</sprite>
     </sprites>
     <sprites name="title_animation">
       <sprite>sprites\Layer_0</sprite>
@@ -35,11 +36,15 @@
       <sprite>sprites\Layer_7</sprite>
       <sprite>sprites\Layer_8</sprite>
     </sprites>
-    <sprite>sprites\start_sp</sprite>
+    <sprites name="button animation">
+      <sprite>sprites\open_sp</sprite>
+      <sprite>sprites\closed_sp</sprite>
+    </sprites>
     <sprite>sprites\up_inssapower00_sp</sprite>
     <sprite>sprites\up_inssapower01_sp</sprite>
     <sprite>sprites\up_inssapower02_sp</sprite>
     <sprite>sprites\up_inssapower03_sp</sprite>
+    <sprite>sprites\start_sp</sprite>
     <sprite>sprites\upgrade_up_inssapower_sp</sprite>
     <sprite>sprites\buy_inssalevel_sp</sprite>
     <sprite>sprites\ok_achievement_sp</sprite>
@@ -49,6 +54,11 @@
     <sprite>sprites\notice_achievement</sprite>
     <sprite>sprites\achievement_bar_sp</sprite>
     <sprite>sprites\music_unvisible_sp</sprite>
+    <sprite>sprites\level_sp</sprite>
+    <sprite>sprites\transparent_sp</sprite>
+    <sprite>sprites\delete_save_sp</sprite>
+    <sprite>sprites\bar_convini_sp</sprite>
+    <sprite>sprites\man_convini_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -65,6 +75,7 @@
     <background>background\achievement_ba</background>
     <background>background\map_ba</background>
     <background>background\menu_ba</background>
+    <background>background\work_ba</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -74,6 +85,7 @@
       <script>scripts\draw_house_button_sc.gml</script>
       <script>scripts\draw_shop_upgrade_sc.gml</script>
       <script>scripts\draw_shop_level_sc.gml</script>
+      <script>scripts\draw_money_sc.gml</script>
     </scripts>
     <script>scripts\set_inssa_sc.gml</script>
     <script>scripts\buy_inssalevel_sc.gml</script>
@@ -110,6 +122,9 @@
       <object>objects\load_achievement_ob</object>
       <object>objects\change_achievement_ob</object>
       <object>objects\play_music_ob</object>
+      <object>objects\draw_house_ob</object>
+      <object>objects\draw_money_ob</object>
+      <object>objects\fever_bar_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -117,6 +132,7 @@
       <object>objects\go_shop_ob</object>
       <object>objects\go_map_ob</object>
       <object>objects\go_menu_ob</object>
+      <object>objects\go_work_ob</object>
     </objects>
     <objects name="up inssapower objects">
       <object>objects\up_inssapower00_ob</object>
@@ -140,12 +156,19 @@
       <object>objects\Layer_7_ob</object>
       <object>objects\Layer_8_ob</object>
     </objects>
+    <objects name="work">
+      <object>objects\draw_work_convini_ob</object>
+      <object>objects\click_work_convini_ob</object>
+      <object>objects\bar_convini_ob</object>
+      <object>objects\man_convini_ob</object>
+    </objects>
     <object>objects\upgrade_up_inssapower_ob</object>
     <object>objects\buy_inssalevel_ob</object>
     <object>objects\save_ob</object>
     <object>objects\load_ob</object>
     <object>objects\notice_real_achievement_ob</object>
     <object>objects\achievement_bar_ob</object>
+    <object>objects\delete_save_ob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_animation</room>
@@ -155,6 +178,7 @@
     <room>rooms\achievement</room>
     <room>rooms\map</room>
     <room>rooms\menu</room>
+    <room>rooms\work</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
