@@ -12,3 +12,4 @@ global.currentMusic = 0;
 global.money = 0;
 global.fever = 0;
 global.fever_alarm = 0;
+global.fever_alarm_check = 0;

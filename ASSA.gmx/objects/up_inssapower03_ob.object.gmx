@@ -34,6 +34,7 @@
    audio_play_sound(click_snd,1,0);//사운드이펙트
    global.inssa_power = global.inssa_power + 10;
    global.click_number = global.click_number + 1;
+   global.fever = global.fever + 1;
         if(global.fever_alarm == 1)
         {
         global.inssa_power = global.inssa_power + 10;

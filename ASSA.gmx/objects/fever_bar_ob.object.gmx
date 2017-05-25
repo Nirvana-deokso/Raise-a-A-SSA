@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.fever_alarm = 0;
+global.fever_alarm_check = 0;
 </string>
           </argument>
         </arguments>
@@ -48,13 +49,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.fever = global.click_number % 100;
+            <string>if(global.fever_alarm == 1)
+{
+global.fever = 0;
+}
+
+if(global.fever_alarm == 1)
+{
+    if(global.fever_alarm_check == 0)
+    {
+    alarm[0] = 90;
+    global.fever_alarm_check = 1;
+    }
+}
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="56">
+    <event eventtype="6" enumb="53">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -71,9 +84,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.fever == 0)
+            <string>if(global.fever &gt; 99)
 {
-alarm[0] = 90;
 global.fever_alarm = 1;
 }
 </string>
