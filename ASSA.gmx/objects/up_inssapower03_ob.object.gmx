@@ -32,13 +32,31 @@
   if position_meeting(device_mouse_x(i), device_mouse_y(i), self)
   {
    audio_play_sound(click_snd,1,0);//사운드이펙트
-   global.inssa_power = global.inssa_power + 10;
+   
+   if(global.upgrade_level == 6)
+        {
+        global.inssa_power = global.inssa_power + 22;
+        }
+    else if(global.upgrade_level == 7)
+        {
+        global.inssa_power = global.inssa_power + 29;
+        }
+        
    global.click_number = global.click_number + 1;
    global.fever = global.fever + 1;
+   
         if(global.fever_alarm == 1)
         {
-        global.inssa_power = global.inssa_power + 10;
+            if(global.upgrade_level == 6)
+                {
+                global.inssa_power = global.inssa_power + 22;
+                }
+            else if(global.upgrade_level == 7)
+                {
+                global.inssa_power = global.inssa_power + 29;
+                }
         }
+        
   }
  }
 }

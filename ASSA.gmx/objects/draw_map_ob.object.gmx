@@ -26,9 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_font(basic_font);
-draw_set_colour(c_black);//다시 폰트 색을 검정색으로
-draw_text_transformed(190, 190, "편의점 아르바이트", 1, 1, 0);
-draw_text_transformed(96, 700, "빨리 움직여!", 1, 1, 0);
+draw_text_transformed(345, 1100, "집", 1, 1, 0);
+draw_text_transformed(425, 843, "편의점", 1, 1, 0);
 </string>
           </argument>
         </arguments>

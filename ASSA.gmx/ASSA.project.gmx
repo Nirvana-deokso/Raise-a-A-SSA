@@ -86,6 +86,7 @@
       <script>scripts\draw_shop_upgrade_sc.gml</script>
       <script>scripts\draw_shop_level_sc.gml</script>
       <script>scripts\draw_money_sc.gml</script>
+      <script>scripts\draw_upgrade_level_sc.gml</script>
     </scripts>
     <script>scripts\set_inssa_sc.gml</script>
     <script>scripts\buy_inssalevel_sc.gml</script>
@@ -125,6 +126,8 @@
       <object>objects\draw_house_ob</object>
       <object>objects\draw_money_ob</object>
       <object>objects\fever_bar_ob</object>
+      <object>objects\draw_map_ob</object>
+      <object>objects\draw_upgrade_level_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -133,6 +136,7 @@
       <object>objects\go_map_ob</object>
       <object>objects\go_menu_ob</object>
       <object>objects\go_work_ob</object>
+      <object>objects\go_house_map_ob</object>
     </objects>
     <objects name="up inssapower objects">
       <object>objects\up_inssapower00_ob</object>
