@@ -1,9 +1,9 @@
-if(global.upgrade_level == 1)
+if(global.upgrade_level > 0)
 {
 global.achievement_upgrade_1 = 1;
 }
 
-if(global.upgrade_level == 2)
+if(global.upgrade_level > 1)
 {  
         with (up_inssapower00_ob)
         {
@@ -15,7 +15,7 @@ if(global.upgrade_level == 2)
 }
 //1단계 췌크 (1번업글)
 
-if(global.upgrade_level == 4)
+if(global.upgrade_level > 3)
 {
         with (up_inssapower01_ob)
         {
@@ -27,7 +27,7 @@ if(global.upgrade_level == 4)
 }
 //2번째 업글 (2단계 )
 
-if(global.upgrade_level == 6)
+if(global.upgrade_level > 5)
 {
         with (up_inssapower02_ob)
         {
