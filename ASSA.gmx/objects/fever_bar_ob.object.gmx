@@ -84,7 +84,7 @@ if(global.fever_alarm == 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.fever &gt; 99)
+            <string>if(global.fever &gt; 299)
 {
 global.fever_alarm = 1;
 }
@@ -110,7 +110,7 @@ global.fever_alarm = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(32, 1184, 672, 1216, global.fever, c_black, c_red, c_green, 0, 1, 1);
+            <string>draw_healthbar(32, 1184, 672, 1216, global.fever/3, c_black, c_red, c_green, 0, 1, 1);
 if(global.fever_alarm == 1)
 {
 draw_set_font(basic_font);

@@ -43,7 +43,11 @@
         }
         
    global.click_number = global.click_number + 1;
+   
+   if(global.fever_alarm == 0)
+   {
    global.fever = global.fever + 1;
+   }
    
         if(global.fever_alarm == 1)
         {
