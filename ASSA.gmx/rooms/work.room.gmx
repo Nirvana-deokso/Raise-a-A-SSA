@@ -54,10 +54,7 @@
     <instance objName="go_house_ob" x="576" y="32" name="inst_5D739234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_money_ob" x="0" y="0" name="inst_182B9DE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_work_convini_ob" x="32" y="0" name="inst_387D56C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="click_work_convini_ob" x="96" y="832" name="inst_D54D3D5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="bar_convini_ob" x="96" y="416" name="inst_79612E6E" locked="0" code="" scaleX="2.83333325386047" scaleY="1.33333337306976" colour="4294967295" rotation="0"/>
-    <instance objName="man_convini_ob" x="120" y="448" name="inst_8128C9F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="click_work_convini_ob" x="448" y="832" name="inst_B99C6848" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="work_box_ob" x="320" y="576" name="inst_B8DF95EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

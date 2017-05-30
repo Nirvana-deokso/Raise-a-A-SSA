@@ -23,7 +23,6 @@
       <sprite>sprites\go_achievement_sp</sprite>
       <sprite>sprites\go_map_sp</sprite>
       <sprite>sprites\go_menu_sp</sprite>
-      <sprite>sprites\go_work_sp</sprite>
     </sprites>
     <sprites name="title_animation">
       <sprite>sprites\Layer_0</sprite>
@@ -39,6 +38,16 @@
     <sprites name="button animation">
       <sprite>sprites\open_sp</sprite>
       <sprite>sprites\closed_sp</sprite>
+    </sprites>
+    <sprites name="map sprites">
+      <sprite>sprites\work_map_sp</sprite>
+      <sprite>sprites\work_map_ok_sp</sprite>
+      <sprite>sprites\work_map_no_sp</sprite>
+      <sprite>sprites\blink_work_map_sp</sprite>
+      <sprite>sprites\blink_house_map_sp</sprite>
+    </sprites>
+    <sprites name="house">
+      <sprite>sprites\window_open_sp</sprite>
     </sprites>
     <sprite>sprites\up_inssapower00_sp</sprite>
     <sprite>sprites\up_inssapower01_sp</sprite>
@@ -57,8 +66,7 @@
     <sprite>sprites\level_sp</sprite>
     <sprite>sprites\transparent_sp</sprite>
     <sprite>sprites\delete_save_sp</sprite>
-    <sprite>sprites\bar_convini_sp</sprite>
-    <sprite>sprites\man_convini_sp</sprite>
+    <sprite>sprites\work_box_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -68,14 +76,18 @@
       <background>background\achievement_click00_ti</background>
       <background>background\achievement_level00_ti</background>
     </backgrounds>
+    <backgrounds name="house">
+      <background>background\house_up_ba</background>
+      <background>background\house_down_ba</background>
+    </backgrounds>
     <background>background\title_animation_ba</background>
     <background>background\title_ba</background>
-    <background>background\house_ba</background>
     <background>background\shop_ba</background>
     <background>background\achievement_ba</background>
     <background>background\map_ba</background>
     <background>background\menu_ba</background>
     <background>background\work_ba</background>
+    <background>background\club_ba</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -128,6 +140,7 @@
       <object>objects\fever_bar_ob</object>
       <object>objects\draw_map_ob</object>
       <object>objects\draw_upgrade_level_ob</object>
+      <object>objects\blink_house_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -135,8 +148,6 @@
       <object>objects\go_shop_ob</object>
       <object>objects\go_map_ob</object>
       <object>objects\go_menu_ob</object>
-      <object>objects\go_work_ob</object>
-      <object>objects\go_house_map_ob</object>
     </objects>
     <objects name="up inssapower objects">
       <object>objects\up_inssapower00_ob</object>
@@ -162,9 +173,18 @@
     </objects>
     <objects name="work">
       <object>objects\draw_work_convini_ob</object>
-      <object>objects\click_work_convini_ob</object>
-      <object>objects\bar_convini_ob</object>
-      <object>objects\man_convini_ob</object>
+      <object>objects\work_box_ob</object>
+    </objects>
+    <objects name="map objects">
+      <object>objects\blink_work_map_ob</object>
+      <object>objects\menu_work_map_ob</object>
+      <object>objects\work_map_ok_ob</object>
+      <object>objects\work_map_no_ob</object>
+      <object>objects\blink_house_map_ob</object>
+    </objects>
+    <objects name="house">
+      <object>objects\window_open_ob</object>
+      <object>objects\house_window_ob</object>
     </objects>
     <object>objects\upgrade_up_inssapower_ob</object>
     <object>objects\buy_inssalevel_ob</object>
