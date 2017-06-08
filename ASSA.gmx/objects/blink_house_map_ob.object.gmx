@@ -195,7 +195,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.menu_work == 0)
+            <string>if(global.map_menu == 0)
 {
 room_goto(house);
 }

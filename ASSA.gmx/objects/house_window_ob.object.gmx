@@ -48,12 +48,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(house_window = 0)
+            <string>if(house_window = 0) and (global.buy_window_realshop == 1)
 {
 instance_create(0, 0, window_open_ob);
 house_window = 1;
 }
-else
+else if(house_window = 1) and (global.buy_window_realshop == 1)
 {
     with(window_open_ob)
     {

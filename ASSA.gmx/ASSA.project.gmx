@@ -23,6 +23,7 @@
       <sprite>sprites\go_achievement_sp</sprite>
       <sprite>sprites\go_map_sp</sprite>
       <sprite>sprites\go_menu_sp</sprite>
+      <sprite>sprites\go_cloth_sp</sprite>
     </sprites>
     <sprites name="title_animation">
       <sprite>sprites\Layer_0</sprite>
@@ -34,39 +35,79 @@
       <sprite>sprites\Layer_6</sprite>
       <sprite>sprites\Layer_7</sprite>
       <sprite>sprites\Layer_8</sprite>
+      <sprite>sprites\start_sp</sprite>
     </sprites>
-    <sprites name="button animation">
-      <sprite>sprites\open_sp</sprite>
-      <sprite>sprites\closed_sp</sprite>
+    <sprites name="Animation sprites">
+      <sprite>sprites\door_open_sp</sprite>
+      <sprite>sprites\door_closed_sp</sprite>
+      <sprite>sprites\window_open_sp</sprite>
     </sprites>
     <sprites name="map sprites">
       <sprite>sprites\work_map_sp</sprite>
+      <sprite>sprites\realshop_map_sp</sprite>
       <sprite>sprites\work_map_ok_sp</sprite>
       <sprite>sprites\work_map_no_sp</sprite>
       <sprite>sprites\blink_work_map_sp</sprite>
       <sprite>sprites\blink_house_map_sp</sprite>
+      <sprite>sprites\blink_realshop_map_sp</sprite>
     </sprites>
-    <sprites name="house">
-      <sprite>sprites\window_open_sp</sprite>
+    <sprites name="Up_inssapower Sprites">
+      <sprite>sprites\up_inssapower00_sp</sprite>
+      <sprite>sprites\up_inssapower01_sp</sprite>
+      <sprite>sprites\up_inssapower02_sp</sprite>
+      <sprite>sprites\up_inssapower03_sp</sprite>
     </sprites>
-    <sprite>sprites\up_inssapower00_sp</sprite>
-    <sprite>sprites\up_inssapower01_sp</sprite>
-    <sprite>sprites\up_inssapower02_sp</sprite>
-    <sprite>sprites\up_inssapower03_sp</sprite>
-    <sprite>sprites\start_sp</sprite>
-    <sprite>sprites\upgrade_up_inssapower_sp</sprite>
-    <sprite>sprites\buy_inssalevel_sp</sprite>
-    <sprite>sprites\ok_achievement_sp</sprite>
-    <sprite>sprites\no_achievement_sp</sprite>
-    <sprite>sprites\save_sp</sprite>
-    <sprite>sprites\load_sp</sprite>
-    <sprite>sprites\notice_achievement</sprite>
-    <sprite>sprites\achievement_bar_sp</sprite>
-    <sprite>sprites\music_unvisible_sp</sprite>
-    <sprite>sprites\level_sp</sprite>
-    <sprite>sprites\transparent_sp</sprite>
-    <sprite>sprites\delete_save_sp</sprite>
-    <sprite>sprites\work_box_sp</sprite>
+    <sprites name="Achievement Sprites">
+      <sprite>sprites\no_achievement_sp</sprite>
+      <sprite>sprites\ok_achievement_sp</sprite>
+      <sprite>sprites\achievement_bar_sp</sprite>
+      <sprite>sprites\notice_achievement</sprite>
+    </sprites>
+    <sprites name="Menu Sprites">
+      <sprite>sprites\save_sp</sprite>
+      <sprite>sprites\delete_save_sp</sprite>
+    </sprites>
+    <sprites name="Upgrade Sprites">
+      <sprite>sprites\buy_inssalevel_sp</sprite>
+      <sprite>sprites\upgrade_up_inssapower_sp</sprite>
+    </sprites>
+    <sprites name="House Sprites">
+      <sprite>sprites\level_sp</sprite>
+    </sprites>
+    <sprites name="Convini Sprites">
+      <sprite>sprites\work_box_sp</sprite>
+    </sprites>
+    <sprites name="Other Else">
+      <sprite>sprites\transparent_sp</sprite>
+      <sprite>sprites\music_unvisible_sp</sprite>
+    </sprites>
+    <sprites name="Realshop Sprites">
+      <sprite>sprites\Rottery_sp</sprite>
+      <sprite>sprites\buy_window_realshop_sp</sprite>
+      <sprite>sprites\buy_assa_cloth_blue_sp</sprite>
+      <sprite>sprites\buy_assa_cloth_basic_sp</sprite>
+    </sprites>
+    <sprites name="Fever Sprites">
+      <sprite>sprites\fever_bar_sp</sprite>
+      <sprite>sprites\fever_anime_01_sp</sprite>
+      <sprite>sprites\fever_anime_02_sp</sprite>
+      <sprite>sprites\fever_anime_03_sp</sprite>
+      <sprite>sprites\fever_anime_04_sp</sprite>
+      <sprite>sprites\fever_anime_05_sp</sprite>
+      <sprite>sprites\fever_anime_06_sp</sprite>
+      <sprite>sprites\fever_anime_07_sp</sprite>
+      <sprite>sprites\fever_anime_08_sp</sprite>
+    </sprites>
+    <sprites name="Fever assa Sprites">
+      <sprite>sprites\basic_assa_up_sp</sprite>
+      <sprite>sprites\basic_assa_down_sp</sprite>
+      <sprite>sprites\basic_assa_fever_up_sp</sprite>
+      <sprite>sprites\basic_assa_fever_down_sp</sprite>
+      <sprite>sprites\blue_assa_up_sp</sprite>
+      <sprite>sprites\blue_assa_down_sp</sprite>
+      <sprite>sprites\blue_assa_fever_up_sp</sprite>
+      <sprite>sprites\blue_assa_fever_down_sp</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tiles">
@@ -100,18 +141,26 @@
       <script>scripts\draw_money_sc.gml</script>
       <script>scripts\draw_upgrade_level_sc.gml</script>
     </scripts>
-    <script>scripts\set_inssa_sc.gml</script>
-    <script>scripts\buy_inssalevel_sc.gml</script>
-    <script>scripts\upgrade_up_inssapower_sc.gml</script>
-    <script>scripts\check_upgrade_sc.gml</script>
-    <script>scripts\check_achievement_sc.gml</script>
-    <script>scripts\save_sc.gml</script>
-    <script>scripts\savestart_sc.gml</script>
-    <script>scripts\load_sc.gml</script>
-    <script>scripts\notice_achievement_start_sc.gml</script>
-    <script>scripts\notice_achievement_stop_sc.gml</script>
-    <script>scripts\check_click_sc.gml</script>
-    <script>scripts\load_achievement_sc.gml</script>
+    <scripts name="Achievement Scripts">
+      <script>scripts\notice_achievement_start_sc.gml</script>
+      <script>scripts\notice_achievement_stop_sc.gml</script>
+      <script>scripts\check_achievement_sc.gml</script>
+      <script>scripts\check_click_sc.gml</script>
+    </scripts>
+    <scripts name="Save &amp; Load Scripts">
+      <script>scripts\save_sc.gml</script>
+      <script>scripts\savestart_sc.gml</script>
+      <script>scripts\load_sc.gml</script>
+      <script>scripts\load_achievement_sc.gml</script>
+    </scripts>
+    <scripts name="Upgrade &amp; Level Scripts">
+      <script>scripts\check_upgrade_sc.gml</script>
+      <script>scripts\buy_inssalevel_sc.gml</script>
+      <script>scripts\upgrade_up_inssapower_sc.gml</script>
+    </scripts>
+    <scripts name="Value Scripts">
+      <script>scripts\set_inssa_sc.gml</script>
+    </scripts>
     <script>scripts\paly_music_sc.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -120,27 +169,12 @@
   <objects name="objects">
     <objects name="No-Sprite Objects">
       <object>objects\set_inssa_ob</object>
-      <object>objects\draw_inssa_ob</object>
-      <object>objects\check_upgrade_ob</object>
-      <object>objects\check_achievement_ob</object>
-      <object>objects\notice_achievement_ob</object>
-      <object>objects\draw_house_button_ob</object>
-      <object>objects\draw_shop_level_ob</object>
-      <object>objects\draw_shop_upgrade_ob</object>
       <object>objects\start_ob</object>
-      <object>objects\check_click_ob</object>
       <object>objects\animation_skip_ob</object>
+      <object>objects\load_ob</object>
       <object>objects\Blink_start_ob</object>
       <object>objects\exit_mobile_ob</object>
-      <object>objects\load_achievement_ob</object>
-      <object>objects\change_achievement_ob</object>
       <object>objects\play_music_ob</object>
-      <object>objects\draw_house_ob</object>
-      <object>objects\draw_money_ob</object>
-      <object>objects\fever_bar_ob</object>
-      <object>objects\draw_map_ob</object>
-      <object>objects\draw_upgrade_level_ob</object>
-      <object>objects\blink_house_ob</object>
     </objects>
     <objects name="go objects">
       <object>objects\go_house_ob</object>
@@ -148,6 +182,7 @@
       <object>objects\go_shop_ob</object>
       <object>objects\go_map_ob</object>
       <object>objects\go_menu_ob</object>
+      <object>objects\go_cloth_ob</object>
     </objects>
     <objects name="up inssapower objects">
       <object>objects\up_inssapower00_ob</object>
@@ -176,23 +211,66 @@
       <object>objects\work_box_ob</object>
     </objects>
     <objects name="map objects">
+      <object>objects\map_management_ob</object>
+      <object>objects\blink_house_map_ob</object>
       <object>objects\blink_work_map_ob</object>
       <object>objects\menu_work_map_ob</object>
       <object>objects\work_map_ok_ob</object>
       <object>objects\work_map_no_ob</object>
-      <object>objects\blink_house_map_ob</object>
+      <object>objects\blink_realshop_map_ob</object>
+      <object>objects\menu_realshop_map_ob</object>
+      <object>objects\realshop_map_ok_ob</object>
+      <object>objects\realshop_map_no_ob</object>
     </objects>
     <objects name="house">
       <object>objects\window_open_ob</object>
       <object>objects\house_window_ob</object>
+      <object>objects\door_fever_ob</object>
+      <object>objects\check_upgrade_ob</object>
+      <object>objects\fever_bar_ob</object>
+      <object>objects\assa_anime_ob</object>
     </objects>
-    <object>objects\upgrade_up_inssapower_ob</object>
-    <object>objects\buy_inssalevel_ob</object>
-    <object>objects\save_ob</object>
-    <object>objects\load_ob</object>
-    <object>objects\notice_real_achievement_ob</object>
-    <object>objects\achievement_bar_ob</object>
-    <object>objects\delete_save_ob</object>
+    <objects name="Draw objects">
+      <object>objects\draw_house_ob</object>
+      <object>objects\draw_money_ob</object>
+      <object>objects\draw_shop_level_ob</object>
+      <object>objects\draw_house_button_ob</object>
+      <object>objects\draw_inssa_ob</object>
+      <object>objects\draw_upgrade_level_ob</object>
+      <object>objects\draw_shop_upgrade_ob</object>
+    </objects>
+    <objects name="Achievement objects">
+      <object>objects\notice_achievement_ob</object>
+      <object>objects\change_achievement_ob</object>
+      <object>objects\notice_real_achievement_ob</object>
+      <object>objects\check_click_ob</object>
+      <object>objects\achievement_bar_ob</object>
+      <object>objects\load_achievement_ob</object>
+      <object>objects\check_achievement_ob</object>
+    </objects>
+    <objects name="Menu objects">
+      <object>objects\save_ob</object>
+      <object>objects\delete_save_ob</object>
+    </objects>
+    <objects name="Upgrade objects">
+      <object>objects\upgrade_up_inssapower_ob</object>
+      <object>objects\buy_inssalevel_ob</object>
+    </objects>
+    <objects name="Realshop objects">
+      <objects name="Buy house deco">
+        <object>objects\buy_window_realshop_ob</object>
+      </objects>
+      <objects name="Buy assa cloth">
+        <object>objects\buy_assa_cloth_blue_ob</object>
+      </objects>
+      <object>objects\draw_realshop_ob</object>
+      <object>objects\Rottery_ob</object>
+    </objects>
+    <objects name="Cloth objects">
+      <object>objects\draw_cloth_ob</object>
+      <object>objects\cloth_basic_ob</object>
+      <object>objects\cloth_blue_ob</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_animation</room>
@@ -203,6 +281,8 @@
     <room>rooms\map</room>
     <room>rooms\menu</room>
     <room>rooms\work</room>
+    <room>rooms\realshop</room>
+    <room>rooms\cloth</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

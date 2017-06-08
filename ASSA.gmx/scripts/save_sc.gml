@@ -9,4 +9,8 @@ ini_write_real("variables", "notice_achievement_click_1", notice_achievement_cli
 ini_write_real("variables", "notice_achievement_upgrade_1", notice_achievement_upgrade_1);
 ini_write_real("variables", "achievement_bar", achievement_bar);
 ini_write_real("variables", "money", money);
+ini_write_real("variables", "global_fever", global_fever);
+ini_write_real("variables", "global_buy_window_realshop", global_buy_window_realshop);
+ini_write_real("variables", "global_assa_cloth", global_assa_cloth);
+ini_write_real("variables", "global_buy_cloth_blue", global_buy_cloth_blue);
 ini_close();

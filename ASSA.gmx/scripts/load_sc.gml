@@ -9,4 +9,8 @@ global.notice_achievement_click_1 = ini_read_real("variables", "notice_achieveme
 global.notice_achievement_upgrade_1 = ini_read_real("variables", "notice_achievement_upgrade_1", 0);
 global.achievement_bar = ini_read_real("variables", "achievement_bar", 0);
 global.money = ini_read_real("variables", "money", 0);
+global.fever = ini_read_real("variables", "global_fever", 0);
+global.buy_window_realshop = ini_read_real("variables", "global_buy_window_realshop", 0);
+global.assa_cloth = ini_read_real("variables", "global_assa_cloth", 0);
+global.buy_cloth_blue = ini_read_real("variables", "global_buy_cloth_blue", 0);
 ini_close();

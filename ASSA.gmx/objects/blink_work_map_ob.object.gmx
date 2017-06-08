@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>alarm[0] = 20;
 global.map_blink = 0;
-global.menu_work = 0;
+global.map_menu = 0;
 </string>
           </argument>
         </arguments>
@@ -251,11 +251,11 @@ alarm[0] = 20;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.menu_work == 0)
+            <string>if(global.map_menu == 0)
 {
-instance_create(232, 440, menu_work_map_ob);
-instance_create(280, 800, work_map_ok_ob);
-instance_create(380, 800, work_map_no_ob);
+instance_create(130, 280, menu_work_map_ob);
+instance_create(130, 850, work_map_ok_ob);
+instance_create(360, 850, work_map_no_ob);
 }
 </string>
           </argument>

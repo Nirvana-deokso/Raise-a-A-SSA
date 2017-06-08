@@ -13,3 +13,6 @@ global.money = 0;
 global.fever = 0;
 global.fever_alarm = 0;
 global.fever_alarm_check = 0;
+global.buy_window_realshop = 0;
+global.assa_cloth = 0;
+global.buy_cloth_blue = 0;

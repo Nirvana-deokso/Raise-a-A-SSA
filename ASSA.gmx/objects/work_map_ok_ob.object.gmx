@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.menu_work == 0)
+            <string>if(global.map_menu == 0)
 {
 instance_destroy();
 }
@@ -71,7 +71,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.menu_work = 0;
+            <string>global.map_menu = 0;
 </string>
           </argument>
         </arguments>

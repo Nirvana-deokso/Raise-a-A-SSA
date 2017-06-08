@@ -8,6 +8,84 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>fever_anime = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(fever_anime == 1)
+{
+fever_anime = 2;
+}
+else if(fever_anime == 2)
+{
+fever_anime = 3;
+}
+else if(fever_anime == 3)
+{
+fever_anime = 4;
+}
+else if(fever_anime == 4)
+{
+fever_anime = 5;
+}
+else if(fever_anime == 5)
+{
+fever_anime = 6;
+}
+else if(fever_anime == 6)
+{
+fever_anime = 7;
+}
+else if(fever_anime == 7)
+{
+fever_anime = 8;
+}
+else if(fever_anime == 8)
+{
+fever_anime = 1;
+}
+alarm[1] = 3;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -27,6 +105,7 @@
             <kind>1</kind>
             <string>global.fever_alarm = 0;
 global.fever_alarm_check = 0;
+fever_anime = 0;
 </string>
           </argument>
         </arguments>
@@ -59,7 +138,9 @@ if(global.fever_alarm == 1)
     if(global.fever_alarm_check == 0)
     {
     alarm[0] = 90;
+    alarm[1] = 3;
     global.fever_alarm_check = 1;
+    fever_anime = 1;
     }
 }
 </string>
@@ -110,20 +191,51 @@ global.fever_alarm = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(32, 1184, 672, 1216, global.fever/3, c_black, c_red, c_green, 0, 1, 1);
-if(global.fever_alarm == 1)
+            <string>draw_healthbar(104, 1064, 615, 1215, global.fever/3, c_black, c_red, c_green, 0, 1, 1);
+
+if(fever_anime == 0)
 {
-draw_set_font(basic_font);
-draw_set_colour(c_white);//인싸력 글을 흰색으로 
-draw_text_transformed(224, 1088, "피버타임이네... 눌러...", 0.8, 0.8, 0);
-draw_set_colour(c_black); //다시 폰트 색을 검정색으로
+draw_sprite(fever_bar_sp, 0, 0, 0);
 }
-else
+
+if(fever_anime == 1)
 {
-draw_set_font(basic_font);
-draw_set_colour(c_white);//인싸력 글을 흰색으로 
-draw_text_transformed(224, 1088, "                ", 0.8, 0.8, 0);
-draw_set_colour(c_black); //다시 폰트 색을 검정색으로
+draw_sprite(fever_anime_01_sp, 0, 0, 0);
+}
+
+if(fever_anime == 2)
+{
+draw_sprite(fever_anime_02_sp, 0, 0, 0);
+}
+
+if(fever_anime == 3)
+{
+draw_sprite(fever_anime_03_sp, 0, 0, 0);
+}
+
+if(fever_anime == 4)
+{
+draw_sprite(fever_anime_04_sp, 0, 0, 0);
+}
+
+if(fever_anime == 5)
+{
+draw_sprite(fever_anime_05_sp, 0, 0, 0);
+}
+
+if(fever_anime == 6)
+{
+draw_sprite(fever_anime_06_sp, 0, 0, 0);
+}
+
+if(fever_anime == 7)
+{
+draw_sprite(fever_anime_07_sp, 0, 0, 0);
+}
+
+if(fever_anime == 8)
+{
+draw_sprite(fever_anime_08_sp, 0, 0, 0);
 }
 </string>
           </argument>
