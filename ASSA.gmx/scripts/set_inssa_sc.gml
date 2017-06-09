@@ -16,3 +16,4 @@ global.fever_alarm_check = 0;
 global.buy_window_realshop = 0;
 global.assa_cloth = 0;
 global.buy_cloth_blue = 0;
+global.save_value = 0;

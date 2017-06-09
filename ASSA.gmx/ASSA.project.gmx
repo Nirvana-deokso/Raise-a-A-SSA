@@ -80,6 +80,7 @@
     <sprites name="Other Else">
       <sprite>sprites\transparent_sp</sprite>
       <sprite>sprites\music_unvisible_sp</sprite>
+      <sprite>sprites\white_sp</sprite>
     </sprites>
     <sprites name="Realshop Sprites">
       <sprite>sprites\Rottery_sp</sprite>
@@ -251,6 +252,7 @@
     <objects name="Menu objects">
       <object>objects\save_ob</object>
       <object>objects\delete_save_ob</object>
+      <object>objects\save_draw_ob</object>
     </objects>
     <objects name="Upgrade objects">
       <object>objects\upgrade_up_inssapower_ob</object>

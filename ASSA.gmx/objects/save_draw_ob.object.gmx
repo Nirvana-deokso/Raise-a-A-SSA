@@ -25,26 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.assa_cloth == 0) and (global.buy_cloth_blue == 0)
+            <string>if(global.save_value == 1)
 {
-draw_set_colour(c_red);
-draw_text(128, 448, "착용중");
-draw_set_colour(c_black);
-draw_text(448, 448, "구입 필요");
+draw_text(32, 320, "저장이 완료되엇습니다!");
 }
-else if(global.assa_cloth == 0) and (global.buy_cloth_blue == 1)
+if(global.save_value == 0)
 {
-draw_set_colour(c_red);
-draw_text(128, 448, "착용중");
-draw_set_colour(c_black);
-draw_text(448, 448, "착용 가능");
-}
-else if(global.assa_cloth == 1) and (global.buy_cloth_blue == 1)
-{
-draw_text(128, 448, "착용 가능");
-draw_set_colour(c_red);
-draw_text(448, 448, "착용중");
-draw_set_colour(c_black);
+draw_text(32, 320, "             ");
 }
 </string>
           </argument>
