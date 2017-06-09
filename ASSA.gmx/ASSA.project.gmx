@@ -8,6 +8,7 @@
     <sounds name="sfx">
       <sound>sound\LevelUp_snd</sound>
       <sound>sound\click_snd</sound>
+      <sound>sound\Fever_snd</sound>
     </sounds>
     <sound>sound\bgm_title_snd</sound>
     <sound>sound\bgm_house_snd</sound>

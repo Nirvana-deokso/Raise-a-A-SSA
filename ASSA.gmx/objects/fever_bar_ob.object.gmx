@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>fever_anime = 0;
+
 </string>
           </argument>
         </arguments>
@@ -106,6 +107,7 @@ alarm[1] = 3;
             <string>global.fever_alarm = 0;
 global.fever_alarm_check = 0;
 fever_anime = 0;
+audio_stop_sound(Fever_snd);
 </string>
           </argument>
         </arguments>
@@ -131,6 +133,7 @@ fever_anime = 0;
             <string>if(global.fever_alarm == 1)
 {
 global.fever = 0;
+
 }
 
 if(global.fever_alarm == 1)
@@ -141,8 +144,10 @@ if(global.fever_alarm == 1)
     alarm[1] = 3;
     global.fever_alarm_check = 1;
     fever_anime = 1;
+    
     }
 }
+
 </string>
           </argument>
         </arguments>
@@ -168,6 +173,12 @@ if(global.fever_alarm == 1)
             <string>if(global.fever &gt; 299)
 {
 global.fever_alarm = 1;
+//피버사운드
+audio_play_sound(Fever_snd,2,0);
+}
+if(room!=house)
+{
+audio_stop_sound(Fever_snd);
 }
 </string>
           </argument>
