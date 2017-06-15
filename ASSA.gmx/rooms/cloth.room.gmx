@@ -55,6 +55,7 @@
     <instance objName="cloth_basic_ob" x="96" y="320" name="inst_7CCD19FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cloth_blue_ob" x="416" y="320" name="inst_C33DF7E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="draw_cloth_ob" x="0" y="0" name="inst_1062D990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="play_music_ob" x="32" y="0" name="inst_07DD8FD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
