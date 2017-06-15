@@ -174,7 +174,7 @@
     <scripts name="Value Scripts">
       <script>scripts\set_inssa_sc.gml</script>
     </scripts>
-    <script>scripts\paly_music_sc.gml</script>
+    <script>scripts\play_music_sc.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\basic_font</font>
