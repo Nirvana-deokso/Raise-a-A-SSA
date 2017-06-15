@@ -28,22 +28,22 @@
             <string>if(global.assa_cloth == 0) and (global.buy_cloth_blue == 0)
 {
 draw_set_colour(c_red);
-draw_text(128, 448, "착용중");
+draw_text(128, 512, "착용중");
 draw_set_colour(c_black);
-draw_text(448, 448, "구입 필요");
+draw_text(448, 512, "구입 필요");
 }
 else if(global.assa_cloth == 0) and (global.buy_cloth_blue == 1)
 {
 draw_set_colour(c_red);
-draw_text(128, 448, "착용중");
+draw_text(128, 512, "착용중");
 draw_set_colour(c_black);
-draw_text(448, 448, "착용 가능");
+draw_text(448, 512, "착용 가능");
 }
 else if(global.assa_cloth == 1) and (global.buy_cloth_blue == 1)
 {
-draw_text(128, 448, "착용 가능");
+draw_text(128, 512, "착용 가능");
 draw_set_colour(c_red);
-draw_text(448, 448, "착용중");
+draw_text(448, 512, "착용중");
 draw_set_colour(c_black);
 }
 </string>

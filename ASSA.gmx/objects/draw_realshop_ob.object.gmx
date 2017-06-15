@@ -27,29 +27,30 @@
             <kind>1</kind>
             <string>draw_set_font(basic_font);
 draw_set_colour(c_black);
-draw_text(22, 192, "어서오세요! 무엇을 도와드릴까요?");
-draw_text(21, 256, "구매하시려는 상품을 클릭해주세요!");
+draw_sprite(realshop_shelf_sp, -1, 0, 0);
+//draw_text(22, 192, "어서오세요! 무엇을 도와드릴까요?");
+//draw_text(21, 256, "구매하시려는 상품을 클릭해주세요!");
 
 //여기서부터는 구매 함수들
 if(global.buy_window_realshop == 0)
 {
-draw_text(58, 512, "창문 : 200닷");
+draw_text(135, 640, "200닷");
 }
 else if(global.buy_window_realshop == 1)
 {
 draw_set_colour(c_red);
-draw_text(58, 512, "창문 : 200닷");
+draw_text(135, 640, "200닷");
 draw_set_colour(c_black);
 }
 
 if(global.buy_cloth_blue == 0)
 {
-draw_text(416, 512, "옷 : 100닷");
+draw_text(463, 640, "100닷");
 }
 else if(global.buy_cloth_blue == 1)
 {
 draw_set_colour(c_red);
-draw_text(416, 512, "옷 : 100닷");
+draw_text(463, 640, "100닷");
 draw_set_colour(c_black);
 }
 

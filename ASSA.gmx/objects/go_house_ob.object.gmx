@@ -26,13 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>if(room == work) or (room == realshop)
-{
-room_goto(map)
-}
+    {
+    room_goto(map);
+    }
+else if(room == cloth)
+    {   
+    room_goto(shop);
+    }
 else
-{
-room_goto(house)
-}
+    {
+    room_goto(house);
+    }
+    
+global.save_value = 0;
 </string>
           </argument>
         </arguments>
@@ -56,13 +62,19 @@ room_goto(house)
           <argument>
             <kind>1</kind>
             <string>if(room == work) or (room == realshop)
-{
-room_goto(map)
-}
+    {
+    room_goto(map);
+    }
+else if(room == cloth)
+    {   
+    room_goto(shop);
+    }
 else
-{
-room_goto(house);
-}
+    {
+    room_goto(house);
+    }
+    
+global.save_value = 0;
 </string>
           </argument>
         </arguments>

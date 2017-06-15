@@ -75,7 +75,16 @@
       <sprite>sprites\level_sp</sprite>
     </sprites>
     <sprites name="Convini Sprites">
-      <sprite>sprites\work_box_sp</sprite>
+      <sprite>sprites\work_assa0_sp</sprite>
+      <sprite>sprites\work_assa1_sp</sprite>
+      <sprite>sprites\work_trash1_sp</sprite>
+      <sprite>sprites\work_trash2_sp</sprite>
+      <sprite>sprites\work_trash3_sp</sprite>
+      <sprite>sprites\work_customer1_sp</sprite>
+      <sprite>sprites\work_customer2_sp</sprite>
+      <sprite>sprites\work_customer3_sp</sprite>
+      <sprite>sprites\work_customer4_sp</sprite>
+      <sprite>sprites\work_customer5_sp</sprite>
     </sprites>
     <sprites name="Other Else">
       <sprite>sprites\transparent_sp</sprite>
@@ -87,6 +96,7 @@
       <sprite>sprites\buy_window_realshop_sp</sprite>
       <sprite>sprites\buy_assa_cloth_blue_sp</sprite>
       <sprite>sprites\buy_assa_cloth_basic_sp</sprite>
+      <sprite>sprites\realshop_shelf_sp</sprite>
     </sprites>
     <sprites name="Fever Sprites">
       <sprite>sprites\fever_bar_sp</sprite>
@@ -129,7 +139,8 @@
     <background>background\map_ba</background>
     <background>background\menu_ba</background>
     <background>background\work_ba</background>
-    <background>background\club_ba</background>
+    <background>background\realshop_ba</background>
+    <background>background\cloth_ba</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -208,8 +219,17 @@
       <object>objects\Layer_8_ob</object>
     </objects>
     <objects name="work">
-      <object>objects\draw_work_convini_ob</object>
-      <object>objects\work_box_ob</object>
+      <object>objects\convini_mangement_ob</object>
+      <object>objects\work_trash1_ob</object>
+      <object>objects\work_trash2_ob</object>
+      <object>objects\work_trash3_ob</object>
+      <object>objects\work_assa_ob</object>
+      <object>objects\work_customer1_ob</object>
+      <object>objects\work_customer2_ob</object>
+      <object>objects\work_customer3_ob</object>
+      <object>objects\work_customer4_ob</object>
+      <object>objects\work_customer5_ob</object>
+      <object>objects\work_bill_ob</object>
     </objects>
     <objects name="map objects">
       <object>objects\map_management_ob</object>
@@ -267,6 +287,7 @@
       </objects>
       <object>objects\draw_realshop_ob</object>
       <object>objects\Rottery_ob</object>
+      <object>objects\realshop_shelf_ob</object>
     </objects>
     <objects name="Cloth objects">
       <object>objects\draw_cloth_ob</object>

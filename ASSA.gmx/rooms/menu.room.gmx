@@ -51,13 +51,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="go_house_ob" x="576" y="32" name="inst_648A7F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="save_ob" x="32" y="160" name="inst_DBAC488C" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
+    <instance objName="go_house_ob" x="567" y="80" name="inst_648A7F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save_ob" x="32" y="256" name="inst_DBAC488C" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
     <instance objName="check_click_ob" x="0" y="0" name="inst_09FA7F46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="notice_achievement_ob" x="32" y="0" name="inst_48011B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="play_music_ob" x="64" y="0" name="inst_CC72B312" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="go_achievement_ob" x="256" y="160" name="inst_8DAB5E3F" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
-    <instance objName="delete_save_ob" x="320" y="1120" name="inst_AD02AFF8" locked="0" code="" scaleX="0.666666686534882" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="delete_save_ob" x="32" y="1024" name="inst_AD02AFF8" locked="0" code="" scaleX="1.00787401199341" scaleY="1.00787401199341" colour="4294967295" rotation="0"/>
     <instance objName="save_draw_ob" x="96" y="0" name="inst_7598AB80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
