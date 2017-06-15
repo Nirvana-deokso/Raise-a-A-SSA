@@ -12,3 +12,5 @@ global_fever = global.fever;
 global_buy_window_realshop = global.buy_window_realshop;
 global_assa_cloth = global.assa_cloth;
 global_buy_cloth_blue = global.buy_cloth_blue;
+global_tutorial = global.tutorial_check;
+global_tutorial_work1=global.tutorial_work1;

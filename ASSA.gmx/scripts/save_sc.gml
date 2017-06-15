@@ -13,4 +13,6 @@ ini_write_real("variables", "global_fever", global_fever);
 ini_write_real("variables", "global_buy_window_realshop", global_buy_window_realshop);
 ini_write_real("variables", "global_assa_cloth", global_assa_cloth);
 ini_write_real("variables", "global_buy_cloth_blue", global_buy_cloth_blue);
+ini_write_real("variables", "global_tutorial", global_tutorial);
+ini_write_real("variables", "global_tutorial_work1", global_tutorial_work1);
 ini_close();

@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(go_map_sp, 0, 18, 342);
-draw_sprite(go_shop_sp, 0, 254, 720);
+            <string>//draw_sprite(go_map_sp, 0, 18, 342);
+//draw_sprite(go_shop_sp, 0, 254, 720);
 </string>
           </argument>
         </arguments>

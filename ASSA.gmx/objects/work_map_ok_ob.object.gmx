@@ -34,27 +34,7 @@ instance_destroy();
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>work</room>
-          </argument>
-        </arguments>
-      </action>
+    <event eventtype="6" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -72,6 +52,10 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>global.map_menu = 0;
+if (global.tutorial_work1 == 0)
+room_goto(tutorial_work);
+else if (global.tutorial_work1 == 1) 
+room_goto(work);
 </string>
           </argument>
         </arguments>

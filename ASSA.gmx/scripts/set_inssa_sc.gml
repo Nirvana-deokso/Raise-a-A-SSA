@@ -18,3 +18,5 @@ global.assa_cloth = 0;
 global.buy_cloth_blue = 0;
 global.save_value = 0;
 global.house_window = 0;
+global.tutorial_check = 0;
+global.tutorial_work1 = 0;

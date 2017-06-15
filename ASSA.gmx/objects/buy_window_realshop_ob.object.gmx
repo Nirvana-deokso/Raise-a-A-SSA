@@ -29,6 +29,7 @@
 {
 global.money = global.money - 200;
 global.buy_window_realshop = 1;
+audio_play_sound(cash_snd,1,0);
 }
 </string>
           </argument>

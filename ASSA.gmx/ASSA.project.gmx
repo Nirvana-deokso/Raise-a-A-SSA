@@ -9,13 +9,13 @@
       <sound>sound\LevelUp_snd</sound>
       <sound>sound\click_snd</sound>
       <sound>sound\Fever_snd</sound>
+      <sound>sound\cash_snd</sound>
     </sounds>
     <sound>sound\bgm_title_snd</sound>
     <sound>sound\bgm_house_snd</sound>
     <sound>sound\bgm_shop_snd</sound>
     <sound>sound\bgm_achievement_snd</sound>
     <sound>sound\bgm_map_snd</sound>
-    <sound>sound\bgm_menu_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="go sprites">
@@ -142,6 +142,14 @@
     <background>background\work_ba</background>
     <background>background\realshop_ba</background>
     <background>background\cloth_ba</background>
+    <backgrounds name="Tutorial">
+      <background>background\Tutorial_01_ba</background>
+      <background>background\Tutorial_02_ba</background>
+      <background>background\Tutorial_03_ba</background>
+      <background>background\tutorial_work_01_ba</background>
+      <background>background\tutorial_work_02_ba</background>
+      <background>background\tutorial_work_03_ba</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -161,8 +169,8 @@
       <script>scripts\check_click_sc.gml</script>
     </scripts>
     <scripts name="Save &amp; Load Scripts">
-      <script>scripts\save_sc.gml</script>
       <script>scripts\savestart_sc.gml</script>
+      <script>scripts\save_sc.gml</script>
       <script>scripts\load_sc.gml</script>
       <script>scripts\load_achievement_sc.gml</script>
     </scripts>
@@ -295,6 +303,10 @@
       <object>objects\cloth_basic_ob</object>
       <object>objects\cloth_blue_ob</object>
     </objects>
+    <objects name="Tutorial">
+      <object>objects\Tutorial_click_ob</object>
+      <object>objects\tutorial_work_ob</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_animation</room>
@@ -302,6 +314,8 @@
     <room>rooms\house</room>
     <room>rooms\shop</room>
     <room>rooms\achievement</room>
+    <room>rooms\tutorial</room>
+    <room>rooms\tutorial_work</room>
     <room>rooms\map</room>
     <room>rooms\menu</room>
     <room>rooms\work</room>
