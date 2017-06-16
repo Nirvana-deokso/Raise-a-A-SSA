@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.save_value == 1)
+            <string>draw_text(192, 490, "튜토리얼 다시보기");
+draw_text(192, 682, "편의점 튜토리얼 다시보기");
+if(global.save_value == 1)
     {
     draw_text(192, 298, "저장 완료!");
     }

@@ -53,10 +53,10 @@
   <instances>
     <instance objName="animation_skip_ob" x="0" y="0" name="inst_A68F3233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Layer_7_ob" x="1500" y="650" name="inst_8962E435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Layer_6_ob" x="0" y="1855" name="inst_B6E58D2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Layer_5_ob" x="0" y="1855" name="inst_D3210526" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Layer_4_ob" x="0" y="1700" name="inst_52DE92B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Layer_3_ob" x="0" y="1700" name="inst_D74A4A0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Layer_6_ob" x="0" y="1850" name="inst_B6E58D2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Layer_5_ob" x="0" y="1850" name="inst_D3210526" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Layer_4_ob" x="0" y="1750" name="inst_52DE92B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Layer_3_ob" x="0" y="1750" name="inst_D74A4A0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Layer_2_ob" x="0" y="-350" name="inst_640316D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Layer_1_ob" x="0" y="-350" name="inst_C776C200" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="set_inssa_ob" x="32" y="0" name="inst_8F1C9C43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

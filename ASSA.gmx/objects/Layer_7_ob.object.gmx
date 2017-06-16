@@ -32,7 +32,7 @@ global.animation_end = 1
 }
 else
 {
-move_towards_point(0, 650, 5);
+move_towards_point(0, 650, 20);
 }
 </string>
           </argument>

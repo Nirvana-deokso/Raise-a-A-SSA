@@ -56,8 +56,17 @@ background_visible[2] = true;
 else if (tutorialnext == 2)
 background_visible[3] = true;
 else if (tutorialnext == 3)
+{
+if(global.tutorial_check == 0)
+{
 room_goto(house);
 global.tutorial_check = 1;
+}
+if(global.tutorial_check == 2)
+{
+room_goto(menu);
+global.tutorial_check = 1;
+}}
 </string>
           </argument>
         </arguments>

@@ -10,6 +10,7 @@
       <sound>sound\click_snd</sound>
       <sound>sound\Fever_snd</sound>
       <sound>sound\cash_snd</sound>
+      <sound>sound\bgm_tutorial_snd</sound>
     </sounds>
     <sound>sound\bgm_title_snd</sound>
     <sound>sound\bgm_house_snd</sound>
@@ -25,6 +26,7 @@
       <sprite>sprites\go_map_sp</sprite>
       <sprite>sprites\go_menu_sp</sprite>
       <sprite>sprites\go_cloth_sp</sprite>
+      <sprite>sprites\go_tutorial_sp</sprite>
     </sprites>
     <sprites name="title_animation">
       <sprite>sprites\Layer_0</sprite>
@@ -306,6 +308,8 @@
     <objects name="Tutorial">
       <object>objects\Tutorial_click_ob</object>
       <object>objects\tutorial_work_ob</object>
+      <object>objects\tutorial_re_ob</object>
+      <object>objects\tutorial_work_re_ob</object>
     </objects>
   </objects>
   <rooms name="rooms">

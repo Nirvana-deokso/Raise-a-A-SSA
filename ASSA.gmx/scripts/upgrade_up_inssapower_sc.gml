@@ -30,7 +30,7 @@ else if (global.upgrade_level == 2)
 
 else if (global.upgrade_level == 3)
 {
-    if(global.inssa_level == 1)
+    if(global.inssa_level > 0)
     {
         if(global.inssa_power > 3499)
         {
@@ -43,7 +43,7 @@ else if (global.upgrade_level == 3)
 
 else if (global.upgrade_level == 4)
 {
-    if(global.inssa_level == 1)
+    if(global.inssa_level > 0)
     {
         if(global.inssa_power > 6599)
         {
@@ -56,7 +56,7 @@ else if (global.upgrade_level == 4)
 
 else if (global.upgrade_level == 5)
 {
-    if(global.inssa_level == 1)
+    if(global.inssa_level > 0)
     {
         if(global.inssa_power > 11199)
         {
@@ -69,7 +69,7 @@ else if (global.upgrade_level == 5)
 
 else if (global.upgrade_level == 6)
 {
-    if(global.inssa_level == 2)
+    if(global.inssa_level > 1)
     {
         if(global.inssa_power > 17599)
         {

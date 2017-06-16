@@ -6,10 +6,10 @@
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
-  <bboxmode>0</bboxmode>
-  <bbox_left>296</bbox_left>
-  <bbox_right>415</bbox_right>
-  <bbox_top>896</bbox_top>
+  <bboxmode>1</bboxmode>
+  <bbox_left>0</bbox_left>
+  <bbox_right>719</bbox_right>
+  <bbox_top>0</bbox_top>
   <bbox_bottom>1279</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
