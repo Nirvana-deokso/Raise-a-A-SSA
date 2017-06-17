@@ -10,12 +10,19 @@
       <sound>sound\click_snd</sound>
       <sound>sound\Fever_snd</sound>
       <sound>sound\cash_snd</sound>
-      <sound>sound\bgm_tutorial_snd</sound>
       <sound>sound\door_open_snd</sound>
       <sound>sound\door_close_snd</sound>
+      <sound>sound\tutorial_next_snd</sound>
+      <sound>sound\save_snd</sound>
+      <sound>sound\popup_snd</sound>
+      <sound>sound\door_creak_snd</sound>
+      <sound>sound\cleaning_snd</sound>
+      <sound>sound\work_count_snd</sound>
+      <sound>sound\inssaupgrade_snd</sound>
     </sounds>
     <sound>sound\bgm_title_snd</sound>
     <sound>sound\bgm_house_snd</sound>
+    <sound>sound\bgm_tutorial_snd</sound>
     <sound>sound\bgm_shop_snd</sound>
     <sound>sound\bgm_achievement_snd</sound>
     <sound>sound\bgm_map_snd</sound>
@@ -157,6 +164,9 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <scripts name="Value Scripts">
+      <script>scripts\set_inssa_sc.gml</script>
+    </scripts>
     <scripts name="draw scripts">
       <script>scripts\draw_inssalevel_sc.gml</script>
       <script>scripts\draw_innsapower_sc.gml</script>
@@ -182,9 +192,6 @@
       <script>scripts\check_upgrade_sc.gml</script>
       <script>scripts\buy_inssalevel_sc.gml</script>
       <script>scripts\upgrade_up_inssapower_sc.gml</script>
-    </scripts>
-    <scripts name="Value Scripts">
-      <script>scripts\set_inssa_sc.gml</script>
     </scripts>
     <script>scripts\play_music_sc.gml</script>
   </scripts>

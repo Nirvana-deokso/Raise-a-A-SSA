@@ -2,7 +2,7 @@
 <sound>
   <kind>3</kind>
   <extension>.mp3</extension>
-  <origname>sound\audio\LevelUp_snd.mp3</origname>
+  <origname>sound\audio\work_count_snd.mp3</origname>
   <effects>0</effects>
   <volume>
     <volume>1</volume>
@@ -15,13 +15,13 @@
     <sampleRate>22050</sampleRate>
   </sampleRates>
   <types>
-    <type>1</type>
+    <type>0</type>
   </types>
   <bitDepths>
     <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
-  <data>LevelUp_snd.mp3</data>
+  <data>work_count_snd.mp3</data>
   <compressed>1</compressed>
   <streamed>0</streamed>
   <uncompressOnLoad>1</uncompressOnLoad>

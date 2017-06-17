@@ -50,21 +50,32 @@
             <kind>1</kind>
             <string>tutorialnext = tutorialnext +1;
 if (tutorialnext == 1)
+{
 background_visible[1] = true;
+audio_play_sound(tutorial_next_snd,0,0);
+}
 else if (tutorialnext == 1)
+{
 background_visible[2] = true;
+audio_play_sound(tutorial_next_snd,0,0);
+}
 else if (tutorialnext == 2)
+{
 background_visible[3] = true;
+audio_play_sound(tutorial_next_snd,0,0);
+}
 else if (tutorialnext == 3)
 {
 if(global.tutorial_check == 0)
 {
 room_goto(house);
+audio_play_sound(tutorial_next_snd,0,0);
 global.tutorial_check = 1;
 }
 if(global.tutorial_check == 2)
 {
 room_goto(menu);
+audio_play_sound(tutorial_next_snd,0,0);
 global.tutorial_check = 1;
 }}
 </string>

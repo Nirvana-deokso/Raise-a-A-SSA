@@ -58,26 +58,6 @@ audio_play_sound(door_close_snd,0,0)
     <event eventtype="6" enumb="7">
       <action>
         <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>map</room>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -95,6 +75,26 @@ audio_play_sound(door_close_snd,0,0)
             <string>global.fever_alarm = 0;
 global.fever_alarm_check = 0;
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>map</room>
           </argument>
         </arguments>
       </action>
@@ -118,7 +118,7 @@ global.fever_alarm_check = 0;
             <kind>1</kind>
             <string>door_open = 1;
 audio_play_sound(door_open_snd,0,0)
-alarm[11]=30;
+alarm[11]=60;
 </string>
           </argument>
         </arguments>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>trash1 = 2;
 health1 = 0;
+
 </string>
           </argument>
         </arguments>
@@ -79,6 +80,10 @@ health = 100;
             <kind>1</kind>
             <string>trash1 = trash1 - 1;
 health1 = health1 + 48;
+ if (!audio_is_playing(cleaning_snd))
+        {
+ audio_play_sound(cleaning_snd,0,0);
+    }
 </string>
           </argument>
         </arguments>

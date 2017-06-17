@@ -46,6 +46,10 @@ draw_set_colour(c_red);
 draw_text(448, 512, "착용중");
 draw_set_colour(c_black);
 }
+if (!audio_is_playing(LevelUp_snd))
+{
+audio_resume_sound(global.currentMusic);
+}
 </string>
           </argument>
         </arguments>

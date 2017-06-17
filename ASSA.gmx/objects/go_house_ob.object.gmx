@@ -28,14 +28,17 @@
             <string>if(room == work) or (room == realshop)
     {
     room_goto(map);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
 else if(room == cloth)
     {   
     room_goto(shop);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
 else
     {
     room_goto(house);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
     
 global.save_value = 0;
@@ -64,14 +67,17 @@ global.save_value = 0;
             <string>if(room == work) or (room == realshop)
     {
     room_goto(map);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
 else if(room == cloth)
     {   
     room_goto(shop);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
 else
     {
     room_goto(house);
+    audio_play_sound(tutorial_next_snd,0,0);
     }
     
 global.save_value = 0;

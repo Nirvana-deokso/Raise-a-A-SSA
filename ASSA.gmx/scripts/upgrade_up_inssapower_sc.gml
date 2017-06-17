@@ -2,6 +2,7 @@ if(global.upgrade_level == 0)
 {
     if(global.inssa_power > 199)
     {
+    audio_play_sound(inssaupgrade_snd,0,0);
     global.inssa_power = global.inssa_power - 200;
     global.upgrade_level = 1;
     }
@@ -12,6 +13,7 @@ else if (global.upgrade_level == 1)
 {
     if(global.inssa_power > 599)
     {
+    audio_play_sound(inssaupgrade_snd,0,0);
     global.inssa_power = global.inssa_power - 600;
     global.upgrade_level = 2;
     }
@@ -22,6 +24,7 @@ else if (global.upgrade_level == 2)
 {
     if(global.inssa_power > 1599)
     {
+   audio_play_sound(inssaupgrade_snd,0,0);
     global.inssa_power = global.inssa_power - 1600;
     global.upgrade_level = 3;
     }
@@ -34,6 +37,7 @@ else if (global.upgrade_level == 3)
     {
         if(global.inssa_power > 3499)
         {
+    audio_play_sound(inssaupgrade_snd,0,0);
         global.inssa_power = global.inssa_power - 3500;
         global.upgrade_level = 4;
         }
@@ -47,6 +51,7 @@ else if (global.upgrade_level == 4)
     {
         if(global.inssa_power > 6599)
         {
+        audio_play_sound(inssaupgrade_snd,0,0);
         global.inssa_power = global.inssa_power - 6600;
         global.upgrade_level = 5;
         }
@@ -62,6 +67,7 @@ else if (global.upgrade_level == 5)
         {
         global.inssa_power = global.inssa_power - 11200;
         global.upgrade_level = 6;
+        audio_play_sound(inssaupgrade_snd,0,0);
         }
     }
 }
@@ -75,6 +81,7 @@ else if (global.upgrade_level == 6)
         {
         global.inssa_power = global.inssa_power - 17600;
         global.upgrade_level = 7;
+       audio_play_sound(inssaupgrade_snd,0,0);
         }
     }
 }

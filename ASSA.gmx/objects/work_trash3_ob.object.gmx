@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>trash3 = 5;
 health3 = 0;
+
 </string>
           </argument>
         </arguments>
@@ -78,6 +79,10 @@ global.trash = global.trash - 1;
             <kind>1</kind>
             <string>trash3 = trash3 - 1;
 health3 = health3 + 19.2;
+ if (!audio_is_playing(cleaning_snd))
+        {
+ audio_play_sound(cleaning_snd,0,0);
+    }
 </string>
           </argument>
         </arguments>

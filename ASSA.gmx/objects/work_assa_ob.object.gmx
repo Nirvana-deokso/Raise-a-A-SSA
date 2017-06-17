@@ -87,6 +87,8 @@ alarm[0] = 30;
 {
 global.assa_touch = 5;
 global.customer_destroy = 1;
+audio_play_sound(cash_snd,1,0);
+global.money = global.money + 5;
 }
 if(global.assa_health == 128)
 {
@@ -118,6 +120,10 @@ global.assa_health = 0;
 {
 global.assa_health = global.assa_health + 25.6;
 global.assa_touch = global.assa_touch - 1;
+ if (!audio_is_playing(work_count_snd))
+        {
+ audio_play_sound(work_count_snd,0,0);
+    }
 }
 </string>
           </argument>

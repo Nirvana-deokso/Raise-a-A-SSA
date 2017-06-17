@@ -107,7 +107,7 @@ alarm[1] = 3;
 global.fever_alarm_check = 0;
 fever_anime = 0;
 audio_stop_sound(Fever_snd);
-global.currentMusic=audio_play_sound(bgm_house_snd,1,1);
+audio_resume_sound(global.currentMusic);
 </string>
           </argument>
         </arguments>
@@ -172,7 +172,7 @@ if(global.fever_alarm == 1)
 global.fever_alarm = 1;
 //피버사운드
 audio_play_sound(Fever_snd,2,0);
-audio_stop_sound(global.currentMusic);
+audio_pause_sound(global.currentMusic);
 }
 
 

@@ -26,8 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.customer5 = 0;
-global.money = global.money + 5;
-audio_play_sound(cash_snd,1,0);
+
 </string>
           </argument>
         </arguments>

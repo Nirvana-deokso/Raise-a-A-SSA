@@ -256,6 +256,7 @@ alarm[0] = 20;
 instance_create(130, 280, menu_work_map_ob);
 instance_create(130, 850, work_map_ok_ob);
 instance_create(360, 850, work_map_no_ob);
+audio_play_sound(popup_snd,0,0);
 }
 </string>
           </argument>
