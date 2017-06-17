@@ -64,7 +64,15 @@ else if (tutorialnext == 2)
 background_visible[3] = true;
 audio_play_sound(tutorial_next_snd,0,0);
 }
-else if (tutorialnext == 3)
+else if (tutorialnext ==3)
+{
+background_visible[4] = true;
+audio_play_sound(tutorial_next_snd,0,0);
+}
+
+
+
+else if (tutorialnext == 4)
 {
 if(global.tutorial_check == 0)
 {
