@@ -11,6 +11,8 @@
       <sound>sound\Fever_snd</sound>
       <sound>sound\cash_snd</sound>
       <sound>sound\bgm_tutorial_snd</sound>
+      <sound>sound\door_open_snd</sound>
+      <sound>sound\door_close_snd</sound>
     </sounds>
     <sound>sound\bgm_title_snd</sound>
     <sound>sound\bgm_house_snd</sound>

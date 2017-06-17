@@ -27,8 +27,14 @@ else if (room==achievement)
 }
 else if (room==map) 
 {
+    //audio_stop_sound(global.currentMusic);
+   // global.currentMusic=audio_play_sound(bgm_map_snd,1,1);
+                if (!audio_is_playing(bgm_map_snd))
+        {
     audio_stop_sound(global.currentMusic);
+    
     global.currentMusic=audio_play_sound(bgm_map_snd,1,1);
+    }
 }
 else if (room==menu)
 {
@@ -52,8 +58,14 @@ else if (room==tutorial_work)
 }
 else if (room==realshop) 
 {
+    //audio_stop_sound(global.currentMusic);
+    //global.currentMusic=audio_play_sound(bgm_tutorial_snd,1,1);
+            if (!audio_is_playing(bgm_map_snd))
+        {
     audio_stop_sound(global.currentMusic);
-    global.currentMusic=audio_play_sound(bgm_tutorial_snd,1,1);
+    
+    global.currentMusic=audio_play_sound(bgm_map_snd,1,1);
+    }
 }
 //피버멈춰 
 if(room!=house)
