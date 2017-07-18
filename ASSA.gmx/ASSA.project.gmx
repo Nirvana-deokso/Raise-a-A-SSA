@@ -57,11 +57,14 @@
     <sprites name="map sprites">
       <sprite>sprites\work_map_sp</sprite>
       <sprite>sprites\realshop_map_sp</sprite>
+      <sprite>sprites\dobak_map_sp</sprite>
       <sprite>sprites\work_map_ok_sp</sprite>
       <sprite>sprites\work_map_no_sp</sprite>
       <sprite>sprites\blink_work_map_sp</sprite>
       <sprite>sprites\blink_house_map_sp</sprite>
       <sprite>sprites\blink_realshop_map_sp</sprite>
+      <sprite>sprites\blink_dobak_map_sp</sprite>
+      <sprite>sprites\blink_house_name_map_sp</sprite>
     </sprites>
     <sprites name="Up_inssapower Sprites">
       <sprite>sprites\up_inssapower00_sp</sprite>
@@ -109,6 +112,11 @@
       <sprite>sprites\buy_assa_cloth_blue_sp</sprite>
       <sprite>sprites\buy_assa_cloth_basic_sp</sprite>
       <sprite>sprites\realshop_shelf_sp</sprite>
+    </sprites>
+    <sprites name="dobak Sprites">
+      <sprite>sprites\rottery</sprite>
+      <sprite>sprites\rock</sprite>
+      <sprite>sprites\nomoney</sprite>
     </sprites>
     <sprites name="Fever Sprites">
       <sprite>sprites\fever_bar_sp</sprite>
@@ -255,6 +263,7 @@
     <objects name="map objects">
       <object>objects\map_management_ob</object>
       <object>objects\blink_house_map_ob</object>
+      <object>objects\blink_house_name_map_ob</object>
       <object>objects\blink_work_map_ob</object>
       <object>objects\menu_work_map_ob</object>
       <object>objects\work_map_ok_ob</object>
@@ -263,6 +272,10 @@
       <object>objects\menu_realshop_map_ob</object>
       <object>objects\realshop_map_ok_ob</object>
       <object>objects\realshop_map_no_ob</object>
+      <object>objects\blink_dobak_map_ob</object>
+      <object>objects\menu_dobak_map_ob</object>
+      <object>objects\dobak_map_ok_ob</object>
+      <object>objects\dobak_map_no_ob</object>
     </objects>
     <objects name="house">
       <object>objects\window_open_ob</object>
@@ -299,6 +312,12 @@
       <object>objects\upgrade_up_inssapower_ob</object>
       <object>objects\buy_inssalevel_ob</object>
     </objects>
+    <objects name="dobak">
+      <object>objects\rottery_ob</object>
+      <object>objects\rock_ob</object>
+      <object>objects\scissor_ob</object>
+      <object>objects\paper_ob</object>
+    </objects>
     <objects name="Realshop objects">
       <objects name="Buy house deco">
         <object>objects\buy_window_realshop_ob</object>
@@ -307,19 +326,18 @@
         <object>objects\buy_assa_cloth_blue_ob</object>
       </objects>
       <object>objects\draw_realshop_ob</object>
-      <object>objects\Rottery_ob</object>
       <object>objects\realshop_shelf_ob</object>
+      <objects name="Tutorial">
+        <object>objects\Tutorial_click_ob</object>
+        <object>objects\tutorial_work_ob</object>
+        <object>objects\tutorial_re_ob</object>
+        <object>objects\tutorial_work_re_ob</object>
+      </objects>
     </objects>
     <objects name="Cloth objects">
       <object>objects\draw_cloth_ob</object>
       <object>objects\cloth_basic_ob</object>
       <object>objects\cloth_blue_ob</object>
-    </objects>
-    <objects name="Tutorial">
-      <object>objects\Tutorial_click_ob</object>
-      <object>objects\tutorial_work_ob</object>
-      <object>objects\tutorial_re_ob</object>
-      <object>objects\tutorial_work_re_ob</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -334,6 +352,7 @@
     <room>rooms\menu</room>
     <room>rooms\work</room>
     <room>rooms\realshop</room>
+    <room>rooms\dobak</room>
     <room>rooms\cloth</room>
   </rooms>
   <help>
